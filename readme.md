@@ -11,6 +11,8 @@ As you solve the problems, remember to use the principles learned in the first f
 
 All of the files for this assignment will be found in the GitHub classroom ***prove-06*** repository. You will commit changes to your own repository for your submission for this assignment.
 
+#### Step 1: [Accept your assignment repository](prove-classroom){:target="_blank"}
+
 ### Problem 1 - Translator Class
 Implement the `AddWord` and `Translate` functions in the Translator class using a dictionary. The `AddWord` function should allow the user to add word translations (e.g. english to german). The `Translate` function should return the translation of a word. If the translation is not available for a word, then "???" should be returned instead. You will need to call `AddWord` multiple times to build a translation dictionary for testing. You should assume that there is only one translation for every word (and vice versa).
 
@@ -20,7 +22,7 @@ Finish implementing the `SummarizeDegrees` function in the `MapsTester` class wh
 ### Problem 3 - Anagrams
 Finish implementing the `IsAnagram` function to determine if two words are anagrams. Two words are an anagram if they use the same letters and the same number of letters. For example, "CAT" and "ACT" are anagrams but "DOG" and "GOOD" are not because "GOOD" has two O's. You must use a dictionary to solve this problem. It is important to note the following assumptions:
 * When determining if two words are anagrams, you should ignore any spaces.
-* You should ignore letter case. For example, 'Ab' and 'bA' should be considered anagrams.
+* You should ignore letter case. For example, 'Ab' and 'Ba' should be considered anagrams.
 
 Reminder: You can access a letter by index in a string by using the `myString[3]` notation.
 
@@ -47,5 +49,5 @@ Your output should be formatted to display the data like this, however the place
 
 ## Submission
 You need to submit the following for this assignment:
-* Make sure all of your changes are committed and pushed to the `main` branch of your **prove-06** repository
+* Make sure all of your changes are committed and pushed to the `main` branch of your **s24-prove-06-racheltesene-main** repository
 * Submit a link to your repository in I-Learn
